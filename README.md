@@ -1,36 +1,44 @@
-# AI Canteen Nutrition Assistant
+# 🍽️ AI Canteen Nutrition Assistant
 
-An AI-powered university canteen nutrition assistant that recommends suitable food items based on a student's health goal, budget, dietary preference, and meal type.
+An AI-powered university canteen nutrition assistant that helps students choose suitable food based on their nutritional goal, budget, dietary preference, and meal type.
 
-The system combines a rule-based nutrition recommendation engine with a locally running Llama model through Ollama to provide personalized explanations for the recommended foods.
+The system combines a **rule-based nutrition recommendation engine** with a **locally running Llama model through Ollama**.
 
----
-
-## 1. Problem Statement
-
-Students often have many food options available in a university canteen but may find it difficult to choose meals that match their nutritional goals, budget, dietary preferences, and meal requirements.
-
-This project provides a simple AI-assisted system that helps students make more informed food choices from the available university canteen menu.
+The recommendation engine selects suitable food items from the university canteen dataset, while the Generative AI component provides a natural-language explanation of the recommendations.
 
 ---
 
-## 2. Objectives
+## 📌 Problem Statement
+
+University students often have multiple food choices available in their canteen but may find it difficult to select meals that match their:
+
+- Nutritional goals
+- Budget
+- Dietary preferences
+- Meal requirements
+
+This project addresses this problem by providing an AI-assisted food recommendation system that uses the university canteen menu and user preferences to recommend suitable food options and explain the recommendations using Generative AI.
+
+---
+
+## 🎯 Objectives
 
 The main objectives of the project are:
 
-- Recommend suitable canteen food items based on user preferences.
-- Consider the student's nutritional goal.
+- Recommend suitable canteen food based on user preferences.
+- Consider different nutritional goals.
 - Respect the user's maximum budget.
 - Support vegetarian food preferences.
 - Filter recommendations according to meal type.
 - Rank food items using nutritional and health-related information.
-- Use Generative AI to explain why the recommended foods may be suitable.
+- Provide an AI-generated explanation of the recommendations.
+- Run the complete application locally.
 
 ---
 
-## 3. Features
+# ⭐ Features
 
-### Personalized Recommendations
+## Personalized Recommendations
 
 Users can specify:
 
@@ -40,155 +48,137 @@ Users can specify:
 - Meal type
 - Number of recommendations
 
-### Nutrition-Based Ranking
+## Nutrition-Based Recommendation Engine
 
-The recommendation engine considers:
+The recommendation engine uses information such as:
 
 - Calories
 - Protein
 - Carbohydrates
 - Fat
 - Health score
-- Food price
-
-### AI Nutrition Explanation
-
-The recommended foods are passed to a locally running Llama model through Ollama.
-
-Llama explains:
-
-- Which recommended food is the best option.
-- Why it matches the selected goal.
-- How the other recommendations compare.
-- A practical nutrition tip.
-
-### Local Execution
-
-The complete application can run locally using Streamlit and Ollama.
-
----
-
-## 4. Technologies Used
-
-- Python
-- Pandas
-- Streamlit
-- Requests
-- Ollama
-- Llama
-- Git
-- GitHub
-
----
-
-## 5. System Architecture
-
-The system consists of four major components:
-
-1. Canteen food dataset
-2. Recommendation engine
-3. Streamlit user interface
-4. Ollama/Llama AI explanation service
-
-The overall workflow is:
-
-Student Preferences  
-↓  
-Streamlit Interface  
-↓  
-Recommendation Engine  
-↓  
-Top Food Recommendations  
-↓  
-Ollama / Llama  
-↓  
-AI Nutrition Explanation
-
-The detailed architecture diagram is available in:
-
-`docs/architecture.png`
-
----
-
-## 6. Recommendation Methodology
-
-The recommendation engine first filters food items according to the user's:
-
-- Budget
-- Vegetarian preference
-- Meal type
-
-The remaining foods are assigned a recommendation score.
-
-The score considers nutritional and health-related factors such as:
-
-- Protein
-- Health score
-- Calories
 - Price
 
-Different weights are applied depending on the selected goal.
+The system filters unsuitable food items and ranks the remaining options according to the selected nutritional goal.
 
-For example:
+## Goal-Based Recommendations
 
-### Muscle Gain
+The application supports different nutritional goals.
 
-Higher importance is given to protein and adequate calories.
+### 💪 Muscle Gain
 
-### Weight Loss
+Places greater importance on:
 
-Higher importance is given to health score, lower calorie content, and protein.
+- Protein
+- Appropriate calorie content
 
-### Healthy Eating
+### ⚖️ Weight Loss
 
-Higher importance is given to health score, protein, lower calorie content, and affordability.
+Places greater importance on:
+
+- Health score
+- Lower calorie content
+- Protein
+
+### 🥗 Healthy Eating
+
+Places greater importance on:
+
+- Health score
+- Protein
+- Reasonable calorie content
+- Affordability
+
+## 🤖 Generative AI Nutrition Explanation
+
+The selected recommendations are passed to a locally running Llama model through Ollama.
+
+Llama generates a natural-language explanation including:
+
+- Which recommendation best matches the user's goal
+- Why the option is suitable
+- How alternative recommendations compare
+- A practical nutrition tip
+
+## 💻 Local AI Execution
+
+The application is designed to run locally using:
+
+- Python
+- Streamlit
+- Pandas
+- Ollama
+- Llama
+
+No external AI API is required for the Generative AI component.
 
 ---
 
-## 7. Generative AI Integration
+# 🛠️ Technologies Used
 
-The recommendation engine determines which foods are recommended.
-
-The Llama model does not replace the recommendation engine.
-
-Instead, the selected recommendations and their nutritional information are provided to Llama.
-
-Llama then generates a natural-language explanation of the recommendations.
-
-This creates a separation between:
-
-**Recommendation Logic**
-
-and
-
-**Generative AI Explanation**
+| Technology | Purpose |
+|---|---|
+| Python | Application development |
+| Pandas | Dataset processing |
+| Streamlit | Web application interface |
+| Requests | Communication with Ollama |
+| Ollama | Local LLM runtime |
+| Llama | Generative AI explanation |
+| Git | Version control |
+| GitHub | Repository and project management |
 
 ---
 
-## 8. Project Structure
+# 🏗️ System Architecture
+
+The system consists of five main components:
+
+1. University canteen dataset
+2. Streamlit user interface
+3. Recommendation engine
+4. Ollama local LLM service
+5. Llama Generative AI model
+
+### Workflow
 
 ```text
-ai-canteen-nutrition-assistant/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-├── requirements.txt
-├── app.py
-│
-├── src/
-│   ├── recommendation_engine.py
-│   └── ollama_service.py
-│
-├── data/
-│   └── university_canteen_sample_menu.csv
-│
-├── docs/
-│   ├── architecture.png
-│   ├── workflow.png
-│   └── screenshots/
-│
-├── outputs/
-│
-└── demo/
-    └── demo.mp4
+              Student
+                 |
+                 v
+       +-------------------+
+       | Streamlit UI      |
+       | User Preferences  |
+       +---------+---------+
+                 |
+                 v
+       +-------------------+
+       | Recommendation    |
+       | Engine            |
+       +---------+---------+
+                 |
+                 v
+       +-------------------+
+       | Filter & Rank     |
+       | Food Items        |
+       +---------+---------+
+                 |
+                 v
+       +-------------------+
+       | Recommended Foods |
+       +---------+---------+
+                 |
+                 v
+       +-------------------+
+       | Ollama            |
+       | Local LLM Runtime |
+       +---------+---------+
+                 |
+                 v
+       +-------------------+
+       | Llama             |
+       | AI Explanation    |
+       +---------+---------+
+                 |
+                 v
+       Personalized
+       Nutrition Explanation
