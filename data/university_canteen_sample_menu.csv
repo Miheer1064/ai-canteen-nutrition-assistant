@@ -1,0 +1,88 @@
+stall,item,description,price_inr,vegetarian,total_calories_kcal,protein_g,carbs_g,fat_g,health_score_10,meal_type
+Punjabi Bites,Aloo Paratha (Premium),"Wheat flatbread stuffed with spiced potato, served with butter, curd and pickle",65,Yes,520,13,68,21,6,Main Meal
+Punjabi Bites,Paneer Onion Paratha,"Wheat flatbread stuffed with paneer and onion, served with sweet curd and pickle",85,Yes,560,22,62,25,6.5,Main Meal
+Punjabi Bites,Mix Veg Paratha,"Wheat flatbread stuffed with potato, carrot, peas and cauliflower, served with curd",75,Yes,450,12,65,16,7,Main Meal
+Punjabi Bites,Amritsari Kulcha with Chole,Stuffed tandoori bread served with spicy chickpea curry and pickled onions,110,Yes,650,20,88,24,5.5,Main Meal
+Punjabi Bites,Rajma Chawal Combo,Kidney bean curry served over basmati rice with raw onion,90,Yes,560,20,88,12,7.5,Main Meal
+Punjabi Bites,Chole Bhature (Signature),Two deep-fried leavened breads served with spiced chickpeas,110,Yes,720,19,92,30,4.5,Main Meal
+Punjabi Bites,Kadhi Chawal Combo,Yogurt and gram-flour curry with fried pakodas served over jeera rice,90,Yes,610,18,82,22,5.5,Main Meal
+Punjabi Bites,Executive Punjabi Thali,"Dal makhani, paneer butter masala, rice/pulao, butter rotis, salad and gulab jamun",160,Yes,950,31,112,40,4.5,Main Meal
+Punjabi Bites,Single Egg Kathi Roll,"Laccha paratha with egg, onions, capsicum and chaat masala",70,No,430,16,45,20,6.5,Main Meal
+Punjabi Bites,Double Egg Kathi Roll,"Laccha paratha with two eggs, onions, capsicum and chaat masala",90,No,510,23,46,25,7,Main Meal
+Punjabi Bites,Paneer Tikka Roll,Grilled paneer and vegetables wrapped in a mint-chutney roll,100,Yes,480,24,48,22,7,Main Meal
+Punjabi Bites,Samosa Chaat / Aloo Tikki Chaat,"Samosas or potato patties with chole, yogurt, chutneys and sev",70,Yes,500,13,62,23,5,Main Meal
+e11even,Tatte idly ( 2 pieces),Steamed rice-lentil cakes served with sambar and chutneys,45,Yes,300,10,53,6,8.5,Breakfast
+e11even,Medu Vada (2 pcs) with Sambar,Crispy lentil fritters served with sambar,50,Yes,390,12,48,17,6.5,Breakfast
+e11even,Masala Dosa,Crispy fermented rice-lentil crepe filled with spiced potato,70,Yes,480,10,72,16,7,Breakfast
+e11even,Plain Dosa,Crispy fermented rice-lentil crepe served with accompaniments,55,Yes,350,8,58,9,7.5,Breakfast
+e11even,Mysore Masala Dosa,Masala dosa spread with spicy garlic-red chilli chutney,80,Yes,540,11,76,20,6.5,Breakfast
+e11even,Vegetable Uttapam,"Thick fermented pancake topped with onion, tomato and vegetables",75,Yes,380,10,60,10,8,Breakfast
+e11even,Sambar Rice,Rice mixed with lentil-vegetable sambar,70,Yes,410,12,72,8,8,Main Meal
+e11even,Lemon Rice,"Tempered rice with peanuts, chana dal and curry leaves",65,Yes,420,9,70,12,7,Main Meal
+e11even,Curd Rice,Rice mixed with seasoned yogurt and curry leaves,60,Yes,360,10,58,9,8,Side
+e11even,Vegetable Biryani,Spiced rice cooked with mixed vegetables,90,Yes,500,11,78,15,6.5,Main Meal
+e11even,South Indian Meals,"Rice with sambar, rasam, vegetables, kootu, curd, papad and pickle",120,Yes,700,20,105,19,7,Main Meal
+e11even,Boiled Eggs (2 pcs),Two boiled eggs served as a protein-rich side,35,No,155,13,1,11,8.5,Side
+e11even,Curd,Plain yogurt served as a side,25,Yes,90,5,7,4,9,Side
+e11even,Extra Sambar,Additional serving of lentil and vegetable sambar,20,Yes,90,5,12,2,9,Side
+Campus Bowl,Paneer Rice Bowl,Rice bowl topped with seasoned paneer and vegetables,110,Yes,620,27,78,22,7.5,Main Meal
+Campus Bowl,Chicken Rice Bowl,Rice bowl topped with grilled chicken and vegetables,130,No,600,38,70,15,8.5,Main Meal
+Campus Bowl,Chickpea Rice Bowl,Rice served with chickpeas and mixed vegetables,90,Yes,520,18,82,11,8,Main Meal
+Campus Bowl,Rajma Rice Bowl,Rice served with kidney beans in a tomato-onion gravy,85,Yes,510,19,84,9,8,Main Meal
+Campus Bowl,Paneer Protein Wrap,Whole-wheat wrap with paneer and crunchy vegetables,110,Yes,500,27,48,21,8,Main Meal
+Campus Bowl,Chicken Protein Wrap,Whole-wheat wrap with grilled chicken and vegetables,130,No,480,35,42,16,9,Main Meal
+Campus Bowl,Egg & Veg Wrap,Wrap filled with eggs and mixed vegetables,90,No,410,20,43,17,8,Main Meal
+Campus Bowl,Boiled Eggs (2 pcs),Two boiled eggs,35,No,155,13,1,11,8.5,Side
+Campus Bowl,Grilled Paneer (100g),Grilled cottage cheese portion,60,Yes,265,18,6,20,7.5,Main Meal
+Campus Bowl,Mixed Salad,Fresh mixed vegetable salad,45,Yes,100,4,15,3,9.5,Side
+Campus Bowl,Curd Bowl,Plain yogurt served as a bowl,30,Yes,100,6,8,4,9,Side
+Micheal’s Corner,Paneer Salad Bowl,Fresh salad topped with grilled paneer,120,Yes,420,25,28,23,9,Side
+Micheal’s Corner,Chicken Salad Bowl,Fresh salad topped with grilled chicken,140,No,380,38,22,14,9.5,Side
+Micheal’s Corner,Chickpea Salad,Mixed vegetables and chickpeas with light dressing,90,Yes,330,15,48,8,9,Side
+Micheal’s Corner,Sprouts Salad,Fresh sprouts with vegetables and light seasoning,70,Yes,220,14,30,5,9.5,Side
+Micheal’s Corner,Grilled Paneer Sandwich,Whole-wheat sandwich with grilled paneer and vegetables,100,Yes,430,23,43,18,8,Main Meal
+Micheal’s Corner,Grilled Chicken Sandwich,Whole-wheat sandwich with grilled chicken and vegetables,120,No,400,31,39,13,9,Main Meal
+Micheal’s Corner,Vegetable Whole Wheat Sandwich,Whole-wheat sandwich with fresh vegetables,80,Yes,320,11,48,8,8.5,Main Meal
+Micheal’s Corner,Vegetable Soup,Light soup prepared with assorted vegetables,60,Yes,150,5,22,4,9,Main Meal
+Micheal’s Corner,Dal & 2 Rotis,Lentil curry served with two whole-wheat rotis,90,Yes,420,18,62,10,9,Main Meal
+Micheal’s Corner,Paneer & 2 Rotis,Paneer curry served with two whole-wheat rotis,120,Yes,520,27,55,19,8,Main Meal
+Micheal’s Corner,Curd + Fruit Bowl,Plain curd with fresh seasonal fruit,80,Yes,230,8,34,6,9,Side
+The Food Court,Veg Burger,Vegetable patty burger with bun and sauces,100,Yes,500,14,58,24,5,Main Meal
+The Food Court,Paneer Burger,Paneer patty burger with sauces and vegetables,130,Yes,620,24,58,31,5.5,Main Meal
+The Food Court,Chicken Burger,"Chicken patty burger with bun, vegetables and sauces",150,No,600,30,55,27,6,Main Meal
+The Food Court,Margherita Pizza,Pizza topped with tomato sauce and mozzarella cheese,150,Yes,650,24,78,25,5.5,Main Meal
+The Food Court,Paneer Tikka Pizza,Pizza topped with paneer tikka and cheese,180,Yes,760,31,80,34,5.5,Main Meal
+The Food Court,Chicken Pizza,Pizza topped with chicken and cheese,200,No,780,38,78,32,6,Main Meal
+The Food Court,Veg Sandwich,"Vegetable sandwich with bread, sauces and cheese",90,Yes,400,12,48,17,6,Main Meal
+The Food Court,Chicken Sandwich,"Chicken sandwich with bread, vegetables and sauce",130,No,470,27,43,18,7,Main Meal
+The Food Court,French Fries,Deep-fried potato fries,70,Yes,430,5,52,22,3.5,Main Meal
+The Food Court,Loaded Fries,French fries topped with cheese and sauces,120,Yes,650,12,60,38,3,Main Meal
+The Food Court,Veg Momos (8 pcs),Steamed vegetable dumplings with dipping sauce,100,Yes,380,12,55,11,6.5,Main Meal
+The Food Court,Chicken Momos (8 pcs),Steamed chicken dumplings with dipping sauce,130,No,420,25,48,12,7,Main Meal
+The Food Court,Burger + Fries,Burger served with a portion of French fries,180,Yes,850,18,105,40,3.5,Main Meal
+The Food Court,Pizza + Soft Drink,Pizza served with a sugary soft drink,200,Yes,850,25,120,28,3,Main Meal
+Beverage & Dessert Bar,Filter Coffee,South Indian filter coffee with milk,25,Yes,90,3,9,4,7.5,Beverage
+Beverage & Dessert Bar,Masala Chai,Milk tea flavored with ginger and cardamom,20,Yes,100,3,12,4,7,Beverage
+Beverage & Dessert Bar,Cold Coffee,Chilled sweetened coffee blended with milk,70,Yes,220,6,30,8,5.5,Beverage
+Beverage & Dessert Bar,Chocolate Milkshake,"Milkshake made with milk, chocolate and sugar",100,Yes,380,10,48,16,4,Beverage
+Beverage & Dessert Bar,Mango Shake,Sweet mango and milk shake,90,Yes,320,8,50,9,5,Beverage
+Beverage & Dessert Bar,Banana Peanut Butter Shake,Banana shake blended with peanut butter and milk,110,Yes,420,15,48,20,7,Beverage
+Beverage & Dessert Bar,Fresh Lime Water,Refreshing lime drink with water and light sweetening,40,Yes,60,0,15,0,8,Beverage
+Beverage & Dessert Bar,Buttermilk,Light yogurt-based drink with herbs and spices,35,Yes,70,4,6,2,9.5,Beverage
+Beverage & Dessert Bar,Gulab Jamun (2 pcs),Two syrup-soaked fried milk-solid dumplings,50,Yes,300,5,42,13,3.5,Dessert
+Beverage & Dessert Bar,Brownie,Dense chocolate cake-style dessert,80,Yes,320,4,42,16,3.5,Dessert
+Beverage & Dessert Bar,Brownie with Ice Cream,Chocolate brownie served with a scoop of ice cream,120,Yes,500,7,58,26,2.5,Dessert
+Beverage & Dessert Bar,Ice Cream Cup,Single serving of ice cream,60,Yes,210,4,25,10,4,Dessert
+Beverage & Dessert Bar,Fruit Bowl,Fresh seasonal fruit pieces,70,Yes,140,2,32,1,9,Side
+Campus Grill,Grilled Paneer Plate,Grilled paneer served with vegetables,130,Yes,470,30,18,28,8.5,Main Meal
+Campus Grill,Grilled Chicken Plate,Grilled chicken served with vegetables,160,No,430,45,15,18,9.5,Main Meal
+Campus Grill,Chicken Tikka,Grilled marinated chicken pieces,140,No,360,38,10,17,9,Main Meal
+Campus Grill,Paneer Tikka,Grilled marinated paneer pieces,120,Yes,400,27,14,26,8,Main Meal
+Campus Grill,Paneer Roll,Paneer and vegetables wrapped in a flatbread,100,Yes,480,22,52,20,7,Main Meal
+Campus Grill,Chicken Roll,Chicken and vegetables wrapped in a flatbread,120,No,470,30,48,16,8,Main Meal
+Campus Grill,Egg Roll,Egg and vegetables wrapped in a flatbread,80,No,400,18,45,16,7.5,Main Meal
+Campus Grill,Double Egg Roll,Two eggs and vegetables wrapped in a flatbread,100,No,470,25,46,20,8,Main Meal
+Campus Grill,Masala Omelette,Egg omelette with vegetables and spices,60,No,250,16,6,18,8,Breakfast
+Campus Grill,Boiled Eggs (2 pcs),Two boiled eggs,35,No,155,13,1,11,8.5,Side
+Campus Grill,Grilled Vegetables,Assorted grilled seasonal vegetables,70,Yes,180,5,25,6,9,Side
+Campus Grill,Green Salad,Fresh green salad with vegetables,50,Yes,90,3,14,2,9.5,Side
