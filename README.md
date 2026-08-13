@@ -415,15 +415,6 @@ The Generative AI component uses a **locally running Llama model through Ollama*
 
 Therefore, the complete system can operate without depending on a cloud-based AI API.
 
----
-
-# ⚠️ Limitations
-
-- Recommendations depend on the accuracy and completeness of the canteen dataset.
-- Nutritional values are based on the available dataset and may not represent exact serving values.
-- The current dataset represents a sample university canteen menu.
-- AI-generated explanations depend on the capabilities of the locally installed Llama model.
-- The system provides general nutritional information and should not be considered professional medical or dietary advice.
 
 ---
 
