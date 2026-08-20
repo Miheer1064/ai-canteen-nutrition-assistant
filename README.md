@@ -157,6 +157,8 @@ The system consists of five main components:
 
 ![AI Canteen Nutrition Assistant Architecture](docs/architecture.png)
 
+Used Claude AI for generating the image.
+
 ---
 
 # 🧠 Recommendation Methodology
